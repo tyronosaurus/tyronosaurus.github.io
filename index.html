@@ -1,0 +1,66 @@
+<head>
+<title>ALL OUT LIFESTYLE</title>
+<link rel="icon" href="https://www.roadrunnerwm.com/wp-content/uploads/2015/02/rr-globe-icon-transparent1.png" type="image/x-icon">
+<link href="AOL_main.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="https://www.roadrunnerwm.com/wp-content/uploads/2015/02/rr-globe-icon-transparent1.png" type="image/x-icon">
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body class="theme">
+
+<div class="intro">
+</div>
+
+<div class="logo">
+  <center><img src="AOL_logo_web.png" style="width:100%"></center>
+</div>
+
+<div class="w3-content w3-section" style="max-width:1440px">
+  <img class="mySlides" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13507016_511771412339805_128951080110010142_n.jpg?oh=5f5bc37f8d19211e0f60d640e8cfcc89&oe=59577479" style="width:100%">
+  <img class="mySlides" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13529074_512135462303400_8855203911948117038_n.jpg?oh=8606490a545eb335998660c0f3a33ec7&oe=59558F38" style="width:100%">
+  <img class="mySlides" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13509060_512432485607031_9102822163512436300_n.jpg?oh=d17dc40f0e3c543f8161f4b56e162fdc&oe=595DD31C" style="width:100%">
+</div>
+
+<div class="video">
+  <div class="videocontent">
+    <center><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAllOut.Lifestyle%2Fvideos%2F592066637643615%2F&show_text=0&width=560" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></center>
+  </div>
+</div>
+
+<div>
+  <div>
+    <left><a href="http://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i>Our Official Facebook Page</left>  
+  </div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
